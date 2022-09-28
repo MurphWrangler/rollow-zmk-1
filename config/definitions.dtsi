@@ -7,15 +7,15 @@
 
 //homerow
 #define HM_A &hm_asemi LGUI A
-#define HM_S &hm_sl LALT S
-#define HM_D &hm_dk LCTRL D
-#define HM_F &hm_fj LSHFT F
+#define HM_R &hm_sl LALT R
+#define HM_S &hm_dk LCTRL S
+#define HM_T &hm_fj LSHFT T
 #define HM_G &hm_gh ACC G
-#define HM_SEMI &hm_asemi LGUI SEMI
-#define HM_L &hm_sl LALT L
-#define HM_K &hm_dk LCTRL K
-#define HM_J &hm_fj LSHFT J
-#define HM_H &hm_gh ACC H
+#define HM_O &hm_asemi LGUI O
+#define HM_I &hm_sl LALT I
+#define HM_E &hm_dk LCTRL E
+#define HM_N &hm_fj LSHFT N
+#define HM_M &hm_gh ACC M
 
 //bluetooth
 #define BT0 &bt BT_SEL 0 
