@@ -19,7 +19,7 @@
                 default_layer {
                         bindings = <
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
-   HM_A  HM_S  HM_D  HM_F  HM_G    HM_H  HM_J   HM_K      HM_L    HM_SEMI
+   HM_A  HM_R  HM_S  HM_T  HM_G    HM_M  HM_N   HM_E      HM_I    HM_O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
       &trans &th_ht SYM TAB &ca_cc_cv   &kp C_PP &th_ht NUM SPACE &trans
                         >;
