@@ -21,7 +21,7 @@
    &mt ESC Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
    HM_A  HM_R  HM_S  HM_T  HM_G    HM_M  HM_N   HM_E      HM_I    HM_O
    &mt LC(Z) Z &mt LC(X) X &mt LC(C) C &mt LC(V) D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-      &trans &lt SYM TAB &lt NUM BSPC   &lt NAV SPACE &lt NUM RETURN &trans
+      &trans &lt ACC TAB &lt NUM BSPC   &lt SYM SPACE &lt NUM RETURN &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
@@ -48,9 +48,9 @@
 
                 accents_layer {
                         bindings = <
-   &a_cir   &trans   &e_aig   &e_grv   &trans   &dead_uml   &u_grv   &i_cir   &o_cir   &trans
-   &a_grv   &trans   &e_cir   &trans   &trans   &dead_cir   &u_cir   &i_uml   &o_uml   &trans
-   &trans   &trans   &c_ced   &trans   &trans   &trans      &trans   &trans   &trans   &trans
+   &a_cir   &trans   &e_aig   &e_grv   &trans   &dead_uml   &kp F7   &kp F8   &kp F9   &kp F10
+   &a_grv   &trans   &e_cir   &trans   &trans   &dead_cir   &kp F4   &kp F5  &kp F6   &kp F11
+   &trans   &trans   &c_ced   &trans   &trans   &trans      &kp F1   &kp F2   &kp F3   &kp F12
                      &trans   &trans   &trans   &trans      &trans   &trans
                         >;
                 };
