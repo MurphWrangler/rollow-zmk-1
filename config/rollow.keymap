@@ -18,7 +18,7 @@
 
                 default_layer {
                         bindings = <
-   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
+   &mt ESC Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
    HM_A  HM_R  HM_S  HM_T  HM_G    HM_M  HM_N   HM_E      HM_I    HM_O
    &mt LC(Z) Z &mt LC(X) X &mt LC(C) C &mt LC(V) D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
       &trans &lt SYM TAB &lt NUM BSPC   &lt NAV SPACE &lt NUM RETURN &trans
@@ -31,16 +31,16 @@
    &trans       &trans     &kp EQUAL &kp AMPS  &degr      &kp PIPE &kp HASH  &kp LBRC &kp RBRC  &trans
    &trans       &kp TILDE  &kp STAR  &kp GRAVE &kp SQT    &kp AT   &kp EXCL  &kp LBKT &kp RBKT  &kp DLLR
    &trans       &trans     &kp PRCNT &kp CARET &kp MINUS  &kp PLUS &kp EQUAL &kp LPAR &kp RPAR  &kp BSLH
-                           &trans    &trans    &trans     &kp UNDER &mo NAV  &trans
+                           &trans    &trans    &trans     &trans &mo NAV  &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
 
                 num_layer {
                         bindings = <
-   &kp F12   &kp HOME    &kp UP    &kp END    &trans      &kp MINUS    &kp N7    &kp N8     &kp N9   &trans
-   &kp F11   &kp LEFT    &kp DOWN    &kp RIGHT    &trans      &kp PLUS  &kp N4    &kp N5     &kp N6   &kp SLASH
-   &kp F10   &kp F1    &kp PG_UP    &kp PG_DN    &trans      &kp STAR &kp N1    &kp N2     &kp N3   &kp DOT
+   &trans   &kp HOME    &kp UP    &kp END    &trans      &kp MINUS    &kp N7    &kp N8     &kp N9   &trans
+   &trans   &kp LEFT    &kp DOWN    &kp RIGHT    &trans      &kp PLUS  &kp N4    &kp N5     &kp N6   &kp SLASH
+   &trans   &trans    &kp PG_UP    &kp PG_DN    &trans      &kp STAR &kp N1    &kp N2     &kp N3   &kp DOT
                        &trans    &trans   &trans      &kp EQUAL    &kp N0    &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
