@@ -18,12 +18,12 @@
 
                 default_layer {
                         bindings = <
-   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
-   HM_A  HM_S  HM_D  HM_F  HM_G    HM_H  HM_J   HM_K      HM_L    HM_SEMI
-   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-      &trans &th_ht SYM TAB &ca_cc_cv   &kp C_PP &th_ht NUM SPACE &trans
+   &gqt ESC Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
+   &gqt LGUI A  &gqt LALT R  &gqt LCTRL S  &gqt LSHIFT T  &kp G    &kp M  &gqt RSHIFT N   &gqt RCTRL E      &gqt RALT I    &gqt LGUI O
+   &gqt LC(Z) Z &gqt LC(X) X &gqt LC(C) C &gqt LC(V) D &gqt LC(LA(V)) V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
+      &trans &lt ACC TAB &lt NUM BSPC   &lt SYM SPACE &lt NUM RETURN &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_NEXT C_PREV>;
+                        sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
 
                 sym_layer {
@@ -31,26 +31,26 @@
    &trans       &trans     &kp EQUAL &kp AMPS  &degr      &kp PIPE &kp HASH  &kp LBRC &kp RBRC  &trans
    &trans       &kp TILDE  &kp STAR  &kp GRAVE &kp SQT    &kp AT   &kp EXCL  &kp LBKT &kp RBKT  &kp DLLR
    &trans       &trans     &kp PRCNT &kp CARET &kp MINUS  &kp PLUS &kp EQUAL &kp LPAR &kp RPAR  &kp BSLH
-                           &trans    &trans    &trans     &kp UNDER &mo NAV  &trans
+                           &trans    &trans    &trans     &trans &mo NAV  &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
 
                 num_layer {
                         bindings = <
-   &kp F12   &kp F7    &kp F8    &kp F9    &trans      &trans    &kp N7    &kp N8     &kp N9   &trans
-   &kp F11   &kp F4    &kp F5    &kp F6    &trans      &kp PLUS  &kp N4    &kp N5     &kp N6   &kp N0
-   &kp F10   &kp F1    &kp F2    &kp F3    &trans      &kp EQUAL &kp N1    &kp N2     &kp N3   &kp DOT
-                       &trans    &mo NAV   &trans      &trans    &trans    &trans
+   &trans   &kp HOME    &kp UP    &kp END    &trans      &kp MINUS    &kp N7    &kp N8     &kp N9   &trans
+   &trans   &kp LEFT    &kp DOWN    &kp RIGHT    &trans      &kp PLUS  &kp N4    &kp N5     &kp N6   &kp SLASH
+   &trans   &trans    &kp PG_UP    &kp PG_DN    &trans      &kp STAR &kp N1    &kp N2     &kp N3   &kp DOT
+                       &trans    &trans   &trans      &kp EQUAL    &kp N0    &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
 
                 accents_layer {
                         bindings = <
-   &a_cir   &trans   &e_aig   &e_grv   &trans   &dead_uml   &u_grv   &i_cir   &o_cir   &trans
-   &a_grv   &trans   &e_cir   &trans   &trans   &dead_cir   &u_cir   &i_uml   &o_uml   &trans
-   &trans   &trans   &c_ced   &trans   &trans   &trans      &trans   &trans   &trans   &trans
+   &a_cir   &trans   &e_aig   &e_grv   &trans   &dead_uml   &kp F7   &kp F8   &kp F9   &kp F10
+   &a_grv   &trans   &e_cir   &trans   &trans   &dead_cir   &kp F4   &kp F5  &kp F6   &kp F11
+   &trans   &trans   &c_ced   &trans   &trans   &trans      &kp F1   &kp F2   &kp F3   &kp F12
                      &trans   &trans   &trans   &trans      &trans   &trans
                         >;
                 };
