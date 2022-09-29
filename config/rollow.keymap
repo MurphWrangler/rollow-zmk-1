@@ -21,7 +21,7 @@
    &gqt ESC Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT
    &gqt LGUI A  &gqt LALT R  &gqt LCTRL S  &gqt LSHIFT T  &kp G    &kp M  &gqt RSHIFT N   &gqt RCTRL E      &gqt RALT I    &gqt LGUI O
    &hm_gh LC(Z) Z &hm_gh LC(X) X &hm_gh LC(C) C &hm_gh LC(V) D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-      &trans &gqt ACC TAB &gqt NUM BSPC   &gqt SYM SPACE &gqt NUM RETURN &trans
+      &trans &lt ACC TAB &lt NUM BSPC   &lt SYM SPACE &lt NUM RETURN &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
                 };
